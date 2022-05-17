@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-I can upload photos or videos to telegraph. Made by @itsmelegend  
+I can upload photos or videos to telegraph. Made by @i_ajit  
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -27,10 +27,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/warbotz")
+                                            "Channel", url="https://t.me/i_ajit")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/War-Legend/Telegraph")
+                                            "Group", url="https://https://t.me/+ABubCJUp9bIxYzQ9")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -45,7 +45,7 @@ async def help(client, message):
 
 Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
 
-~ @warbotz</b>""",
+~ @i_ajit</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -54,7 +54,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/War-Legend/Telegraph")
+                                            "Group", url="https://t.me/+ABubCJUp9bIxYzQ9")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -67,19 +67,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>♞ owner:</b> <a href="https://t.me/Itsmelegend">Abhishek </a>
+<b>♞ owner:</b> <a href="https://t.me/i_ajit">ajju[🇮🇳] </a>
 
-<b>♞ Support:</b> <a href="https://t.me/camila_Support">camila Support </a>
+<b>♞ Support:</b> <a href="https://t.me/ajju_support">ajju Support </a>
 
-<b>♞ GitHub:</b> <a href="https://github.com/War-Legend">here </a>
+<b>♞ GitHub:</b> <a href="https://github.com/ajit-bahari">here </a>
 
-<b>~ @warbotz</b>""",
+<b>~ @i_ajit</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/War-Legend/Telegraph")
+                                            "Channel", url="https://t.me/i_ajit")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -95,7 +95,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @WarBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @i_ajit**',
             disable_web_page_preview=True,
         )
     finally:
@@ -111,7 +111,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @WarBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @i_ajit**',
             disable_web_page_preview=True,
         )
     finally:
@@ -127,7 +127,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @WarBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @i_ajit**',
             disable_web_page_preview=True,
         )
     finally:
@@ -149,7 +149,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @camila_support
+Join @i_ajit
 """
 )
 
