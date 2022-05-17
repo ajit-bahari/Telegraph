@@ -3,4 +3,4 @@ Pillow
 Pyrogram
 TgCrypto
 aiohttp
-[t.me/i_ajit](i_ajit)
+
