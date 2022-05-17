@@ -6,10 +6,10 @@
         "Telegraph",
         "Uploader",
         "Telegram Bot",
-        "war Bots"
+        "@i_ajit"
     ],
-    "repository": "https://github.com/War-Legend/Telegraph",
-    "success_url": "https://t.me/camila_support",
+    "repository": "https://github.com/Ajit-Bahari/Telegraph",
+    "success_url": "https://t.me/i_ajit",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
