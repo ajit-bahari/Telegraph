@@ -1,1 +1,1 @@
-worker: python3 webot.p
+worker: python3 webot.py
